@@ -1,0 +1,292 @@
+.zonehaut {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+ }
+
+ .menu {
+    position: absolute;
+    top: 15%;
+    left: 0px;
+    width: 100%;
+    height: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+ }
+ 
+ .zonemilieu {
+    position: absolute;
+    top: 22%;
+    bottom: 12%;
+    left: 1%;
+    width: 98%;
+    height: 66%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+ }
+
+.zonebas {
+    position: absolute;
+    bottom: 0%;
+    left: 0px;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+}
+
+.P1 {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    bottom: 50%;
+    right: 50%;
+    margin: 0.2%;
+}
+
+.P2 {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    bottom: 50%;
+    right: 0%;
+    margin: 0.2%;
+}
+
+.P3 {
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    bottom: 0%;
+    right: 50%;
+    margin: 0.2%;
+}
+
+.P4 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    bottom: 0%;
+    right: 0%;
+    margin: 0.2%;
+}
+
+.pz1 {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    bottom: 50%;
+    right: 50%;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    background-color: red;
+    margin: 0.1%;
+}
+
+.pz2 {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    bottom: 50%;
+    right: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    margin: 0.1%;
+}
+
+.pz3 {
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    bottom: 0%;
+    right: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    margin: 0.1%;
+}
+
+.pz4 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    bottom: 0%;
+    right: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    margin: 0.1%;
+}
+
+.pz5 {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    bottom: 50%;
+    right: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+    margin: 0.1%;
+}
+
+.pz6 {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    bottom: 50%;
+    right: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+    margin: 0.1%;
+}
+
+.pz7 {
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    bottom: 0%;
+    right: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+    margin: 0.1%;
+}
+
+.pz8 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    bottom: 0%;
+    right: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+    margin: 0.1%;
+}
+
+.pz9 {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    bottom: 50%;
+    right: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+    margin: 0.1%;
+}
+
+.pz10 {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    bottom: 50%;
+    right: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+    margin: 0.1%;
+}
+
+.pz11 {
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    bottom: 0%;
+    right: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+    margin: 0.1%;
+}
+
+.pz12 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    bottom: 0%;
+    right: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+    margin: 0.1%;
+}
+
+.pz13 {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    bottom: 50%;
+    right: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: brown;
+    margin: 0.1%;
+}
+
+.pz14 {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    bottom: 50%;
+    right: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: brown;
+    margin: 0.1%;
+}
+
+.pz15 {
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    bottom: 0%;
+    right: 50%;
+    display: flex;
+    justify-content: center;
+     align-items: center;
+    background-color: brown;
+    margin: 0.1%;
+}
+
+.pz16 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    bottom: 0%;
+    right: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: brown;
+    margin: 0.1%;
+}

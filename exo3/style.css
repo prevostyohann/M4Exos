@@ -1,0 +1,40 @@
+header {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 15%;
+    text-align: left;
+    background-color: red;
+ }
+
+ .menu {
+    position: absolute;
+    top: 15%;
+    left: 0px;
+    width: 100%;
+    height: 5%;
+    text-align: left;
+    background-color: blue;
+ }
+ 
+ .zonemilieu {
+    position: absolute;
+    top: 22%;
+    bottom: 12%;
+    left: 1%;
+    width: 98%;
+    height: 66%;
+    text-align: left;
+    background-color: greenyellow;
+ }
+
+ footer {
+    position: absolute;
+    bottom: 0%;
+    left: 0px;
+    width: 100%;
+    height: 10%;
+    text-align: left;
+    background-color: yellow;
+}

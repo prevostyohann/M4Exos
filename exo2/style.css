@@ -1,0 +1,69 @@
+header {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 10%;
+    text-align: left;
+    background-color: red;
+ }
+ 
+ .zonegauche {
+    position: absolute;
+    top: 10%;
+    left: 0px;
+    width: 20%;
+    height: 40%;
+    text-align: left;
+    background-color: blue;
+ }
+
+.zonemilieu {
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    width: 60%;
+    height: 40%;
+    text-align: left;
+    background-color: greenyellow;
+ }
+
+.zonedroite {
+    position: absolute;
+    top: 10%;
+    right: 0%;
+    width: 20%;
+    height: 90%;
+    text-align: left;
+    background-color: maroon;
+}
+
+.gauche {
+    position: absolute;
+    bottom: 10%;
+    left: 0px;
+    width: 50%;
+    height: 40%;
+    text-align: left;
+    background-color: rgb(42, 239, 239);
+}
+
+.droite {
+    position: absolute;
+    bottom: 10%;
+    right: 0%;
+    width: 50%;
+    height: 40%;
+    text-align: left;
+    background-color: violet;
+}
+
+footer {
+    position: absolute;
+    bottom: 0%;
+    left: 0px;
+    width: 100%;
+    height: 10%;
+    text-align: left;
+    background-color: yellow;
+}
