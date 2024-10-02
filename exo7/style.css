@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+    height: 50px;
+    background-color: blue;
+}
+
+main {
+    position: absolute;
+    top: 100px;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    margin-top: 1px;
+    
+}
+
+nav {
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 5px;
+    height: 30px;
+    background-color: red;
+}
+
+h3 {
+    text-align: center;
+}
+
+.section1 {
+    position: absolute;
+    background-color: green;
+    height: 50%;
+    width: 100%;
+}
+
+.section2 {
+    position: absolute;
+    height: 50%;
+    bottom: 0%;
+    width: 100%;
+    background-color: yellow;
+}
+
+.aside1 {
+    position: absolute;
+    background-color: aqua;
+    top: 15%;
+    bottom: 10%;
+    left: 1%;
+    width: 40%;
+}
+
+.aside1 > p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aside1 > h6 {
+    margin-left: 10%;
+}
+
+.article1 {
+    position: absolute;
+    background-color: aqua;
+    top: 15%;
+    bottom: 10%;
+    right: 1%;
+    width: 50%;
+}
+
+.article1 > p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.article1 > h6 {
+    margin-left: 10%;
+}
+
+.article2 {
+    position: absolute;
+    background-color: aqua;
+    top: 15%;
+    bottom: 5%;
+    left: 1%;
+    width: 30%;
+}
+
+.article2 > p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.article2 > h6 {
+    margin-left: 10%;
+}
+
+.aside2 {
+    position: absolute;
+    background-color: cadetblue;
+    top: 15%;
+    right: 1%;
+    width: 65%;
+    bottom: 55%;
+}
+
+.aside2 > p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aside2 > h6 {
+    margin-left: 10%;
+}
+
+.aside3 {
+    position: absolute;
+    background-color: cadetblue;
+    bottom: 5%;
+    left: 34%;
+    width: 30%;
+    height: 45%;
+}
+
+.aside3 > p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aside3 > h6 {
+    margin-left: 10%;
+}
+
+.article3 {
+    position: absolute;
+    background-color: aqua;
+    right: 1%;
+    left: 65%;
+    top: 50%;
+    bottom: 25%;
+}
+
+.article3 > p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.article3 > h6 {
+    margin-left: 5%;
+}
+
+.footer {
+    position: absolute;
+    background-color: red;
+    right: 2%;
+    bottom: 5%;
+    width: 32%;
+    height: 18%;
+}
+
+/* p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+} */
