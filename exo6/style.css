@@ -14,15 +14,7 @@ p {
     font-size: larger;
 }
 
-.mcontainer {
-    position: absolute;
-    border: solid;
-    border-color: red;
-    top: 5%;
-    left: 10%;
-    right: 10%;
-    bottom: 1%;
-}
+
 
 .header {
     position: relative;
@@ -145,7 +137,7 @@ p {
     left: 1%;
     width: 98%;
     height: 98%;
-    background-color: limegreen;
+    background-color: rosybrown;
     opacity: 0.5;
 }
 
@@ -161,14 +153,23 @@ footer {
     background-color: yellow;
 }
 
-.fcontainer {
-    position: relative;
+.container {
+    position: absolute;
+    top: 5%;
     bottom: 5%;
-    top: 10%;
-    left: 6.5%;
-    
-   height: 75%;
-    width: 79.5%;
+    left: 10%;
+    right: 10%;
+    height: 90%;
+    width: 80%;
+
+}
+
+footer > .container {
     border: solid;
     border-color: black;
+}
+
+main > .container {
+    border: solid;
+    border-color: red;
 }
