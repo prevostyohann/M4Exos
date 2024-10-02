@@ -1,8 +1,8 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+} */
 
 
 header {
@@ -146,6 +146,7 @@ h3 {
 }
 
 .article3 {
+    flex-basis: 100%;
     position: absolute;
     background-color: aqua;
     right: 1%;
