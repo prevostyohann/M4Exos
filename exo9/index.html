@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>exo9</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <form action="#" method="post">
+<fieldset>
+<legend><strong>Information personnelle</strong></legend>
+
+<ul>
+
+
+    <li>
+            <label for="Civilité">Civilité * :</label>
+            <span class="tab"></span>
+            <select title="civilité" name="civilité" size="1" required>
+                    <option value="1">Mme.</option>
+                    <option value="2">Mr.</option>
+                    <option value="3">Autre</option>
+            </select><br><br>
+    </li>
+
+
+    <li>
+            <label for="Nom">Nom * :</label>
+            <span class="tab"></span>
+            <input type="text" name="Nom" id="Nom" placeholder="Votre Nom ici" required/><br><br>
+    </li>
+
+    <li>
+            <label for="Prénom">Prénom * :</label>
+            <span class="tab"></span>
+            <input type="text" name="Prénom" id="Prénom" placeholder="Votre Prénom ici" required/><br><br>
+    </li>
+
+    <li>
+            <label for="Date de Naissance">Date de Naissance * :</label>
+            <span class="tab"></span>
+            <input type="date" name="Date de Naissance" id="Date de Naissance" placeholder="jj/mm/aaaa" required/><br><br>
+    </li>
+
+    <li>
+            <label for="Prénom">Numéro de téléphone fixe :</label>
+            <span class="tab"></span>
+            <input type="tel" name="fixe" id="fixe" placeholder="fixe" size="10" pattern="[0-9]{10}"/><br><br>
+    </li>
+
+    <li>
+        <label for="Prénom">Numéro de téléphone portable * :</label>
+        <span class="tab"></span>
+        <input type="tel" name="portable" id="portable" placeholder="portable" size="10" pattern="[0-9]{10}" required/><br><br>
+    </li>
+
+    <li>
+        <label for="Prénom">Numéro de rue * :</label>
+        <span class="tab"></span>
+        <input type="text" name="Numéro de rue" id="Numéro de rue" size="2" placeholder="N°" pattern="[0-9]{2}" required/>
+        <label for="Prénom">Nom de rue * :</label>
+        <span class="tab"></span>
+        <input type="text" name="Nom de rue" id="Nom de rue" placeholder="Nom de rue" required/><br><br>
+    </li>
+
+    <li>
+        <label for="Code Postal">Code Postal * :</label>
+        <span class="tab"></span>
+        <input type="text" name="Code postal" id="Code postal" placeholder="Votre code postal ici" required/><br><br>
+    </li>
+
+    <li>
+        <label for="Ville">Ville * :</label>
+        <span class="tab"></span>
+        <input type="text" name="Ville" id="Ville" placeholder="Votre Ville ici" required/><br><br>
+    </li>
+
+    <li>
+        <label for="Pseudo"><strong>Pseudo</strong> * :</label>
+        <span class="tab"></span>
+        <input type="text" name="Pseudo" id="Pseudo" placeholder="Entrer votre Pseudo ici" required/><br><br>
+    </li>
+    
+    <li>
+        <label for="Mot de passe"><strong>Mot de passe</strong> * :</label>
+        <span class="tab"></span>
+        <input type="password" name="Mot de passe" id="Mot de passe" size="21" placeholder="Entrer votre Mot de passe ici" required/>
+        <input type="submit" name="submit" id="submit">
+        <input type="checkbox" id="souvenir" name="souvenir">
+        <label for="souvenir" id="souvenir">Se souvenir de moi</label>
+    </li>
+
+</ul>
+
+</fieldset>
+<br>
+<fieldset>
+    <legend><strong>Information conplémentaire</strong></legend>
+
+  
+        <p>Quel est votre niveau en développement ?
+        <input type="radio" name="Débutant" value="Débutant" id="Débutant"/>
+        <label for="Débutant">Débutant</label>
+        <input type="radio" name="Junior" value="Junior" id="Junior" />
+        <label for="Junior">Junior</label>
+        <input type="radio" name="Expert" value="Expert" id="Expert" />
+        <label for="Expert">Expert</label>
+    </p>
+       
+<p>Quel est votre niveau de connaissance dans les différents languages :</p>
+        <ul class="info-comp">
+            
+            <li>
+                <label for="html/css">html/css :</label>
+                <input type="checkbox" name="html/css" id="html/css">
+            </li>
+            <li>
+                <label for="Python">Python :</label>
+                <input type="checkbox" name="Python" id="Python">
+            </li>
+            <li>
+                <label for="PHP">PHP :</label>
+                <input type="checkbox" name="PHP" id="PHP">
+            </li>
+            <li>
+                <label for="Java">Java :</label>
+                <input type="checkbox" name="Java" id="Java">
+            </li>
+            <li>
+                <label for="NodeJS">NodeJS :</label>
+                <input type="checkbox" name="NodeJS" id="NodeJS">
+            </li>
+
+            <li>
+                <label for="ReactJS">ReactJS :</label>
+                <input type="checkbox" name="ReactJS" id="ReactJS">
+            </li>
+
+            <li>
+                <label for="C#">C# :</label>
+                <input type="checkbox" name="C#" id="C#">
+            </li>
+        </ul>
+
+        <label for="OS">Sur quel OS travaillez-vous ?</label>
+        <select name="OS" id="OS">
+        <option value="OS">Windows</option>
+        <option value="OS">Linux</option>
+        <option value="OS">Mac</option>
+        </select>
+
+</fieldset>
+<br>
+<fieldset>
+
+    <legend><strong>Information liées à la promotion</strong></legend>
+
+
+        <label for="promotion">promotion beweb ?</label>
+        <select name="promotion" id="promotion">
+        <option value="test">test</option>
+        <option value=""></option>
+        <option value=""></option>
+        <option value=""></option>
+        </select>
+        <select name="promotion" id="promotion">
+            <option value="test">test</option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            </select>
+<br><br><br>
+        <label for="URLTD">Merci de nous faire parvenir votre URL TD_1 :</label>
+        <input type="url" name="URLTD" id="URLTD" placeholder="URL">
+        <br><br><br>
+
+        <label for="precisions" id="precisions">Si vous avez des questions vous pouvez nous les laisser en commentaire ci-dessous : <br><br>
+            <textarea name="precisions" id="precisions" cols="40"
+         rows="3"></textarea></label>
+  
+<br><br><br>
+         <input type="submit" id="button" value="Envoyer"/>
+        
+
+</fieldset>
+</form>
+        
+        
+       
+    </body>
+</html>
